@@ -1,42 +1,87 @@
-var jwt = localStorage.getItem('jwt')
-if (jwt !=null) {
-	window.location.href='./text.html'
-}
 
-function login(){
-	const username = document.getElementById("username").value;
-	const password = document.getElementById("password").value;
+(function ($) {
+    "use strict";
 
-	const xhttp = new XMLHttpRequest();
-	xhttp.open("POST","")
-	xhttp.sendRequestHeader("Content-Type","application/json;charset=UTF-8");
-	xhttp.send(JSON.stringify({
-		"username": username,
-		"password": password
-	}));
-	xhttp.onreadystatechange = function (){
-		if (this.readyState == 4){
-			const objects = JSON.parse(this.responseText);
-			console.log(objects);
-			if (objects['status']== 'ok'){
-				localStorage.setItem("jwt",objects['accessToken']);
-				Swal.fire({
-					text:objects['message'],
-					icon: 'success',
-					confirmButtonText: 'OK'
-				}).then((result)=> {
-					if(result.isConfrimed){
-						window.location.href= './text.html';
-					}
-				});
-			}else {
-				Swal.fire({
-					text: objects['message'],
-					icon: 'error',
-					confirmButtonText: 'OK'
-				});
-			}
-		}
-	};
-	return false;
-}
+
+    /*==================================================================
+    [ Focus input ]*/
+    $('.input100').each(function(){
+        $(this).on('blur', function(){
+            if($(this).val().trim() != "") {
+                $(this).addClass('has-val');
+            }
+            else {
+                $(this).removeClass('has-val');
+            }
+        })    
+    })
+  
+  
+    /*==================================================================
+    [ Validate ]*/
+    var input = $('.validate-input .input100');
+
+    $('.validate-form').on('submit',function(){
+        var check = true;
+
+        for(var i=0; i<input.length; i++) {
+            if(validate(input[i]) == false){
+                showValidate(input[i]);
+                check=false;
+            }
+        }
+
+        return check;
+    });
+
+
+    $('.validate-form .input100').each(function(){
+        $(this).focus(function(){
+           hideValidate(this);
+        });
+    });
+
+    function validate (input) {
+        if($(input).attr('type') == 'email' || $(input).attr('name') == 'email') {
+            if($(input).val().trim().match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) == null) {
+                return false;
+            }
+        }
+        else {
+            if($(input).val().trim() == ''){
+                return false;
+            }
+        }
+    }
+
+    function showValidate(input) {
+        var thisAlert = $(input).parent();
+
+        $(thisAlert).addClass('alert-validate');
+    }
+
+    function hideValidate(input) {
+        var thisAlert = $(input).parent();
+
+        $(thisAlert).removeClass('alert-validate');
+    }
+    
+    /*==================================================================
+    [ Show pass ]*/
+    var showPass = 0;
+    $('.btn-show-pass').on('click', function(){
+        if(showPass == 0) {
+            $(this).next('input').attr('type','text');
+            $(this).addClass('active');
+            showPass = 1;
+        }
+        else {
+            $(this).next('input').attr('type','password');
+            $(this).removeClass('active');
+            showPass = 0;
+        }
+        
+    });
+
+
+})(jQuery);
