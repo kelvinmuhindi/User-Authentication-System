@@ -38,12 +38,12 @@ body, html {
 	font-family: Poppins-Regular, sans-serif;
 }
 
-/*---------------------------------------------*/
+/*---------------x------------------------------*/
 a {
 	font-family: Poppins-Regular;
 	font-size: 14px;
 	line-height: 1.7;
-	color: #666666;
+	color: #000000;
 	margin: 0px;
 	transition: all 0.4s;
 	-webkit-transition: all 0.4s;
@@ -69,7 +69,7 @@ p {
 	font-family: Poppins-Regular;
 	font-size: 14px;
 	line-height: 1.7;
-	color: #666666;
+	color: white;
 	margin: 0px;
 }
 
@@ -139,7 +139,7 @@ iframe {
 [ Utility ]*/
 .txt1 {
   font-family: Poppins-Regular;
-  font-size: 13px;
+  font-size: 14px;
   color: #e5e5e5;
   line-height: 1.5;
 }
@@ -151,6 +151,13 @@ iframe {
 .limiter {
   width: 100%;
   margin: 0 auto;
+}
+
+.forgot-pass {
+  position: relative;
+  top: 2px;
+  font-size: 14px; 
+  box-sizing: border-box;
 }
 
 .container-login100 {
@@ -346,7 +353,7 @@ iframe {
 
 .label-checkbox100 {
   font-family: Poppins-Regular;
-  font-size: 13px;
+  font-size: 14px;
   color: #fff;
   line-height: 1.2;
 
@@ -359,7 +366,7 @@ iframe {
 .label-checkbox100::before {
   content: "\f26b";
   font-family: Material-Design-Iconic-Font;
-  font-size: 13px;
+  font-size: 14px;
   color: transparent;
 
   display: -webkit-box;
@@ -498,7 +505,7 @@ iframe {
 
   font-family: Poppins-Regular;
   color: #c80000;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.4;
   text-align: left;
 
