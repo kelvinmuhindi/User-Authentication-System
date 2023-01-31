@@ -15,7 +15,7 @@ window.addEventListener("resize",resizeCanvas, false);
 
 		function onLoad(){
 			canvas = document.getElementById("canvas");
-			ctx = canvas.getContext("2nd");
+			ctx = canvas.getContext("2d");
 			resizeCanvas();
 
 			window.requestAnimationFrame(updateWorld);
@@ -94,7 +94,7 @@ window.addEventListener("resize",resizeCanvas, false);
 				this.vy += this.gravity;
 				this.y += this.vy;
 				this.alpha -= 0.01;
-				if (this.x <= this.w || this.x >= screen.width || this.y >= screen.height || this.alpha <= 0) {
+				if (this.x <= this.w || this.x >= window.innerWidth || this.y >= window.innerHeight || this.alpha <= 0) {
 					return false;
 				}
 				return true;
@@ -111,3 +111,13 @@ window.addEventListener("resize",resizeCanvas, false);
 				c.restore();
 			}
 		}
+
+// This is JavaScript code for creating a firework animation in a canvas element. 
+// It starts by defining event listeners for the "resize" and "DOMContentLoaded" events of the window,
+// and a cross-browser compatible requestAnimationFrame method. 
+// Then, it defines functions for initializing the canvas, updating the world, painting the canvas, 
+// creating a firework, and the particle prototype.
+// When the DOM content is loaded, the canvas is initialized and the updateWorld function is called continuously using requestAnimationFrame. 
+// The update function updates the state of the particles and the paint function paints the updated state of the particles to the canvas. 
+// The createFirework function creates a random number of particles with random colors, positions, and velocities. 
+// The Particle prototype has move and draw methods that determine how the particle moves and is drawn to the canvas.
