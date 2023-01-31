@@ -49,7 +49,7 @@ window.addEventListener("resize",resizeCanvas, false);
 
 		function paint(){
 			ctx.globalCompositeOperation = 'source-over';
-			ctx.fillStyle = "rgba(0,0,0,0.2)";
+			ctx.fillStyle = "rgba(10,10,10,0.88)";
 			ctx.fillRect(0,0,w,h);
 			ctx.globalCompositeOperation = 'lighter';
 			for (var i = 0; i < particles.length; i++) {
@@ -111,6 +111,20 @@ window.addEventListener("resize",resizeCanvas, false);
 				c.restore();
 			}
 		}
+
+window.onload = function() {
+  var canvas = document.getElementById("myCanvas");
+  var context = canvas.getContext("2d");
+  var imageObj = new Image();
+  imageObj.onload = function() {
+    context.drawImage(imageObj, 0, 0);
+    context.font = "40pt Poppins-Regular";
+    context.fillText("Yaaay! You're In...", 100, canvas.height - 100);
+  };
+
+  imageObj.src = "images/bg-02.jpg";
+};
+
 
 // This is JavaScript code for creating a firework animation in a canvas element. 
 // It starts by defining event listeners for the "resize" and "DOMContentLoaded" events of the window,
