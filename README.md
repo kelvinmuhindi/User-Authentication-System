@@ -16,6 +16,15 @@
 <h2>Sign Up Page</h2>
 <p>This is a HTML code for a user registration page.It includes form fields for user input of the username, email, password and confirm password. The form is styled using CSS with different files included in the header section. Upon form submission, the data would be sent to the server-side to be processed, stored and verified.</p>
 
+<h2>Forgot Password</h2>
+<p>The page has HTML code that creates a form for password reset using bootstrap, jQuery, and various other libraries. The form contains a text input for the user's email address, a submit button, and a link to sign up for a new account.</p>
+
+<h2>Reset Password</h2>
+<p>This page has HTML code that creates a password reset page. The page contains a form that takes an email address and a submit button. The form is styled with CSS files loaded from different sources. The page also includes links to sign up for a new account. The page uses several JavaScript files for animations, form submissions, and other interactions.</p>
+
+<h2>Successful Reset Password</h2>
+<p>This page is a success page for the password reset process, it has a form that contains a button with the text "Sign In". The button is linked to a JavaScript function that redirects the user to the "index.html" page upon clicking. To sign in again.</p>
+
 <h2>Terms And Use</h2>
 <p>This is a terms and use agreement for a website. The agreement outlines the terms and conditions for using the website and sets restrictions on what activities are prohibited. It is stated that the website can only be used for lawful purposes and not for illegal activities, harassment, abuse, or commercial activities. All content on the website is protected by intellectual property laws and cannot be reproduced, distributed, or exploited without the website owner's consent. The website is provided "as is," with no representations or warranties and the website owner will not be liable for any damages arising from the use of the website.</p>
 
@@ -25,15 +34,6 @@
 The company collects personal information such as name, email address, and postal code, as well as information about user behavior on the website through cookies and other technologies. The company uses the collected information to provide a better user experience, communicate with users, and for research and analysis. The company does not sell or rent personal information to third parties but may share it with affiliates and third-party service providers, and as required by law.
 
 The company takes reasonable measures to protect personal information but cannot guarantee its security due to the inherent risks of internet-based systems. The policy may be updated from time to time and users are encouraged to regularly review it. If you have any questions or concerns, you can contact the company at kelvinmuhindi73@gmail.com.</p>
-
-<h2>Forgot Password</h2>
-<p>The page has HTML code that creates a form for password reset using bootstrap, jQuery, and various other libraries. The form contains a text input for the user's email address, a submit button, and a link to sign up for a new account.</p>
-
-<h2>Reset Password</h2>
-<p>This page has HTML code that creates a password reset page. The page contains a form that takes an email address and a submit button. The form is styled with CSS files loaded from different sources. The page also includes links to sign up for a new account. The page uses several JavaScript files for animations, form submissions, and other interactions.</p>
-
-<h2>Successful Reset Password</h2>
-<p>This page is a success page for the password reset process, it has a form that contains a button with the text "Sign In". The button is linked to a JavaScript function that redirects the user to the "index.html" page upon clicking. To sign in again.</p>
 
 # Technologies used
 <ul>
