@@ -23,7 +23,7 @@
 
 The company collects personal information such as name, email address, and postal code, as well as information about user behavior on the website through cookies and other technologies. The company uses the collected information to provide a better user experience, communicate with users, and for research and analysis. The company does not sell or rent personal information to third parties but may share it with affiliates and third-party service providers, and as required by law.
 
-The company takes reasonable measures to protect personal information but cannot guarantee its security due to the inherent risks of internet-based systems. The policy may be updated from time to time and users are encouraged to regularly review it. If you have any questions or concerns, you can contact the company at [kelvinmuhindi73@gmail.com].</p>
+The company takes reasonable measures to protect personal information but cannot guarantee its security due to the inherent risks of internet-based systems. The policy may be updated from time to time and users are encouraged to regularly review it. If you have any questions or concerns, you can contact the company at kelvinmuhindi73@gmail.com.</p>
 
 # Technologies used
 <ul>
@@ -55,7 +55,7 @@ The company takes reasonable measures to protect personal information but cannot
 </ol>
 
 # Contact Details
-<p>You can provide feedback or raise any issues/ bugs through the following means [kelvinmuhindi73@gmail.com].</p>
+<p>You can provide feedback or raise any issues/ bugs through the following means kelvinmuhindi73@gmail.com</p>
 
 # License 
 Completely free (MIT)! See [LICENSE](LICENSE) for more. 
