@@ -1,9 +1,9 @@
 # User Authentication System
 
-#Ownership 
+# Ownership 
 <p>This system is licensed to Kelvin Muhindi and was last updated on 1/02/2023</p>
 
-#Decription
+# Decription
 <h1>Home Page</h1>
 <p>This code is an HTML code for a login form. The code consists of the following elements:</p>
 <ul>
@@ -25,7 +25,7 @@ The company collects personal information such as name, email address, and posta
 
 The company takes reasonable measures to protect personal information but cannot guarantee its security due to the inherent risks of internet-based systems. The policy may be updated from time to time and users are encouraged to regularly review it. If you have any questions or concerns, you can contact the company at [kelvinmuhindi73@gmail.com].</p>
 
-#Technologies used
+# Technologies used
 <ul>
 	<li>CSS</li>
 	<li>SCSS</li>
@@ -34,7 +34,7 @@ The company takes reasonable measures to protect personal information but cannot
 	<li>JavaScript</li>
 </ul>
 
-#Requirements To Use The System 
+# Requirements To Use The System 
 <ol>
 	<li>Confirming the identity of users: By requiring users to provide a unique identifier and password, an authentication system can confirm that a user is who they claim to be.</li>
 	<li>Protecting sensitive information: An authentication system can prevent unauthorized access to sensitive information or resources, such as financial data, personal information, or confidential business information.</li>
@@ -42,7 +42,7 @@ The company takes reasonable measures to protect personal information but cannot
 	<li>Improving security: By using strong passwords and secure authentication methods, an authentication system can help reduce the risk of unauthorized access and data breaches</li>
 </ol>
 
-#Development
+# Development
 <p>To develop the user authentication system, the following steps can be taken:</p>
 <ol>
 	<li>The requirements for the authentication system are defined, including considerations for security, scalability, ease of use, and regulatory compliance.</li>
