@@ -1,4 +1,5 @@
 # User Authentication System
+<p>A user authentication system is a technology or process that confirms the identity of a user who is attempting to access a system, application, or website. It ensures that only approved individuals are able to access the protected resources and helps prevent unauthorized access to sensitive data. This system usually involves the user entering their identification, such as a username and password, which is then compared with a database of registered users to determine whether access should be granted. Additional methods of authentication, such as biometrics, multi-factor authentication, or digital certificates, may also be incorporated into the user authentication system.</p>
 
 # Ownership 
 <p>This system is licensed to Kelvin Muhindi and was last updated on 1/02/2023</p>
