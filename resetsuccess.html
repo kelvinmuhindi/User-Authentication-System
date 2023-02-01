@@ -16,11 +16,9 @@
 	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-
 </head>
+
 <body>
-	<body>
-	
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('images/bg-02.jpg');">
 			<div class="wrap-login100">
@@ -30,17 +28,21 @@
 					</span>
 					<span class="login100-form-title p-b-34 p-t-27">Successful password reset!<br><a>You can now use your new password to sign in to you account</a></span>
 					<div class="container-login100-form-btn">
-						<a href="https://kelvinmuhindi.github.io/User-Authentication-System/index.html">
-							<button class="login100-form-btn">
+						<button class="login100-form-btn" id="myButton">
 								Sign In
-							</button>
-						</a>
+						</button>
 					</div>
 				</form>
 			</div>
 		</div>
 	</div>
+
+	<script>
+  		document.getElementById("myButton").onclick = function() {
+  			window.location.href ='index.html';
 	
+  		};
+	</script>
 
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 	<script src="vendor/animsition/js/animsition.min.js"></script>
@@ -52,6 +54,5 @@
 	<script src="vendor/countdowntime/countdowntime.js"></script>
 	<script src="js/script.js"></script>
 
-</body>
 </body>
 </html>

@@ -26,6 +26,15 @@ The company collects personal information such as name, email address, and posta
 
 The company takes reasonable measures to protect personal information but cannot guarantee its security due to the inherent risks of internet-based systems. The policy may be updated from time to time and users are encouraged to regularly review it. If you have any questions or concerns, you can contact the company at kelvinmuhindi73@gmail.com.</p>
 
+<h2>Forgot Password</h2>
+<p>The page has HTML code that creates a form for password reset using bootstrap, jQuery, and various other libraries. The form contains a text input for the user's email address, a submit button, and a link to sign up for a new account.</p>
+
+<h2>Reset Password</h2>
+<p>This page has HTML code that creates a password reset page. The page contains a form that takes an email address and a submit button. The form is styled with CSS files loaded from different sources. The page also includes links to sign up for a new account. The page uses several JavaScript files for animations, form submissions, and other interactions.</p>
+
+<h2>Successful Reset Password</h2>
+<p>This page is a success page for the password reset process, it has a form that contains a button with the text "Sign In". The button is linked to a JavaScript function that redirects the user to the "index.html" page upon clicking. To sign in again.</p>
+
 # Technologies used
 <ul>
 	<li>CSS</li>
