@@ -19,7 +19,7 @@
 <p>This is a terms and use agreement for a website. The agreement outlines the terms and conditions for using the website and sets restrictions on what activities are prohibited. It is stated that the website can only be used for lawful purposes and not for illegal activities, harassment, abuse, or commercial activities. All content on the website is protected by intellectual property laws and cannot be reproduced, distributed, or exploited without the website owner's consent. The website is provided "as is," with no representations or warranties and the website owner will not be liable for any damages arising from the use of the website.</p>
 
 <h2>Privacy Policy</h2>
-<p>This is the privacy policy for [The User Authentication-System], a website located at [kelvinmuhindi.github.io/User-Authentication-System/]. The policy describes how the company collects, uses, and shares personal information from users of the website.
+<p>This is the privacy policy for The User Authentication-System, a website located at [kelvinmuhindi.github.io/User-Authentication-System/]. The policy describes how the company collects, uses, and shares personal information from users of the website.
 
 The company collects personal information such as name, email address, and postal code, as well as information about user behavior on the website through cookies and other technologies. The company uses the collected information to provide a better user experience, communicate with users, and for research and analysis. The company does not sell or rent personal information to third parties but may share it with affiliates and third-party service providers, and as required by law.
 
@@ -55,7 +55,7 @@ The company takes reasonable measures to protect personal information but cannot
 </ol>
 
 # Contact Details
-<p>You can provide feedback or raise any issues/ bugs through the following means kelvinmuhindi73@gmail.com </p>
+<p>You can provide feedback or raise any issues/ bugs through the following means [kelvinmuhindi73@gmail.com].</p>
 
 # License 
 Completely free (MIT)! See [LICENSE](LICENSE) for more. 
