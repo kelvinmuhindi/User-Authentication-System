@@ -4,7 +4,7 @@
 <p>This system is licensed to Kelvin Muhindi and was last updated on 1/02/2023</p>
 
 # Decription
-<h3>Home Page</h3>
+<h2>Home Page</h2>
 <p>This code is an HTML code for a login form. The code consists of the following elements:</p>
 <ul>
 	<li>A head section that contains links to external CSS stylesheets used by the form.</li>
@@ -12,13 +12,13 @@
 	<li>The form has a logo, a title, two input fields for username and password, a checkbox for remember me option, a button for sign in, and a link to a sign-up page.</li>
 </ul>
 
-<h3>Sign Up Page</h3>
+<h2>Sign Up Page</h2>
 <p>This is a HTML code for a user registration page.It includes form fields for user input of the username, email, password and confirm password. The form is styled using CSS with different files included in the header section. Upon form submission, the data would be sent to the server-side to be processed, stored and verified.</p>
 
-<h3>Terms And Use</h3>
+<h2>Terms And Use</h2>
 <p>This is a terms and use agreement for a website. The agreement outlines the terms and conditions for using the website and sets restrictions on what activities are prohibited. It is stated that the website can only be used for lawful purposes and not for illegal activities, harassment, abuse, or commercial activities. All content on the website is protected by intellectual property laws and cannot be reproduced, distributed, or exploited without the website owner's consent. The website is provided "as is," with no representations or warranties and the website owner will not be liable for any damages arising from the use of the website.</p>
 
-<h3>Privacy Policy</h3>
+<h2>Privacy Policy</h2>
 <p>This is the privacy policy for [The User Authentication-System], a website located at [kelvinmuhindi.github.io/User-Authentication-System/]. The policy describes how the company collects, uses, and shares personal information from users of the website.
 
 The company collects personal information such as name, email address, and postal code, as well as information about user behavior on the website through cookies and other technologies. The company uses the collected information to provide a better user experience, communicate with users, and for research and analysis. The company does not sell or rent personal information to third parties but may share it with affiliates and third-party service providers, and as required by law.
