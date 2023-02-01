@@ -1,3 +1,5 @@
+//JS file for Home Page
+
 window.addEventListener("resize",resizeCanvas, false);
 		window.addEventListener("DOMContentLoaded", onLoad, false);
 

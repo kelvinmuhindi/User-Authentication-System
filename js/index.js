@@ -1,3 +1,16 @@
+// JavaScript Page for Sign Up page
+
+document.getElementById("myButton").onclick = function() {
+  //open the home page
+  window.location.href ='index.html';
+  //prevent going back
+  window.history.forward();
+};
+
+window.addEventListener("beforeunload", function (event) {
+  event.preventDefault();
+});
+
 document.querySelector(".login100-form").addEventListener("submit", function(event) {
   event.preventDefault();
   let username = document.querySelector('input[name="username"]').value;

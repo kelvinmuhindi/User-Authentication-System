@@ -1,3 +1,4 @@
+//JS file for index.html
 
 (function ($) {
     "use strict";
